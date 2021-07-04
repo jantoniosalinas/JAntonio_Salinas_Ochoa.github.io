@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>T-Dance Academy</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-nav">
+                <div class="image-content">
+                    <a href="#">
+                        <img src="./images/T-DanceAcademy.png" width="150px" hight="150px" alt="">
+                    </a>
+                </div>
+                <div class="respmenu">
+                    <input type="checkbox">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    <nav>
+                        <div class="options-content">
+                            <a href="#" class="">Acerca de T-Dance Academy</a>
+                            <a href="#" class="">Clases</a>                               
+                            <a href="#" class="">Coreográfos</a>
+                            <a href="#" class="">Contactanos</a>
+                            <a href="#">Login</a>
+                        </div>
+                    </nav>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron-area">
+            <div>
+                <form action="">
+                    <div>
+                        <h1 class="jumbotron-title">Encontremos tu estilo de baile</h1>
+                        <h5 class="jumbotron-title2">Registrate a clase y recibe una clase muestra de acuerdo a tus habilidades</h5>
+                        <label class="jumbotron-label" for="fullname">Nombre Completo</label><br>
+                        <input type="text" name="fullname" id="fullname" placeholder="Nombre Completo"><br>
+                        <label class="jumbotron-label" for="email">Correo Electrónico</label><br>
+                        <input type="email" name="email" id="email" placeholder="Correo Electrónico">
+                    </div>
+                    <div>
+                        <button class="form-send">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="carousel-container">
+                <ul class="carousel-slider">
+                    <li id="slide1">
+                        <img src="./images/carousel_hiphop.jpg" alt="">
+                    </li>
+                    <li id="slide2">
+                        <img src="./images/carousel_contemporaneo.jpg" alt="">
+                    </li>
+                    <li id="slide3">
+                        <img src="./images/carousel_ballet.jpg" alt="">
+                    </li>
+                    <li id="slide4">
+                        <img src="./images/carousel_locking.jpg" alt="">
+                    </li>
+                    <li id="slide5">
+                        <img src="./images/carousel_popping.jpg" alt="">
+                    </li>
+                    <li id="slide6">
+                        <img src="./images/carousel_house.jpg" alt="">
+                    </li>
+                    <li id="slide7">
+                        <img src="./images/carousel_breakdance.jpg" alt="">
+                    </li>
+                    <li id="slide8">
+                        <img src="./images/carousel_polinesias.jpg" alt="">
+                    </li>
+                </ul>
+                <ul class="carousel-menu">
+                    <li>
+                        <a href="#slide1">1</a>
+                    </li>
+                    <li>
+                        <a href="#slide2">2</a>
+                    </li>
+                    <li>
+                        <a href="#slide3">3</a>
+                    </li>
+                    <li>
+                        <a href="#slide4">4</a>
+                    </li>
+                    <li>
+                        <a href="#slide5">5</a>
+                    </li>
+                    <li>
+                        <a href="#slide6">6</a>
+                    </li>
+                    <li>
+                        <a href="#slide7">7</a>
+                    </li>
+                    <li>
+                        <a href="#slide8">8</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="label-title">
+            <h1>Estilos de Baile</h1>
+        </div>
+
+        <section class="articles-area"> <!-- CONTENEDOR DE LOS ARTÍCULOS DEL BLOG -->     
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/hip_hop.jpg" alt="Estilo Hip-Hop">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Hip Hop</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es la cultura que engloba distintas corrientes callejeras y que va mucho más allá de cantar.
+                            Se trata de un movimiento cultural que nació en la década de los 70 en las calles del distrito del Bronx,
+                            en Nueva York, como respuesta a la represiva situación en la que vivían los ciudadanos afroamericanos,
+                            recluidos en una especie de gueto moderno. Se ha popularizado y extendido desde sus primeros momentos y 
+                            actualmente, esta subcultura se define a través de cuatro manifestaciones principales: DJ, grafiti, MC
+                            y break-dance
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/contemporaneo.jpg" alt="Estilo Contemporáneo">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Contemporáneo</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es un estilo de danza expresiva que combina elementos de varios géneros de danza, incluido el ballet moderno,
+                            jazz, lírico y clásico. Los bailarines contemporáneos se esfuerzan por conectar la mente y el cuerpo a través
+                            de movimientos fluidos de danza. El término "contemporáneo" es algo engañoso: describe un género que se desarrolló
+                            a mediados del siglo XX y sigue siendo muy popular en la actualidad.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/ballet.jpg" alt="Estilo Ballet">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Ballet</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es un arte escénico que puede incluir danza, música de orquesta, coro, mímica, actuación, escenografía,
+                            vestuario y relatos fantásticos. Todo depende de quién sea su creador y de la época en que se haya creado;
+                            reconocemos un ballet por la precisión de los refinados movimientos de los bailarines; el ballet es un arte
+                            de escenario, pero además se llama ballet a la técnica que debe estudiarse para bailarlo.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/locking.jpg" alt="Estilo Locking">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Locking</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es un estilo de danza Funk mezclado con estilos de danzas callejeras de aquella época. El Locking constituye
+                            una combinación de movimientos rápidos y distintos del brazo y de la mano con las caderas y piernas más relajadas,
+                            se puede bailar solo o en unísono con dos o más bailarines haciendo pasos o “handshakes” juntos. Los movimientos
+                            son generalmente grandes y exagerados, y son a menudo muy rítmicos y sincronizados estrechamente con la música,
+                            está enfocado en las actuaciones. Los protagonistas interactúan a menudo con las audiencias con sus sonrisas
+                            cómplices o dándoles un “alto cinco”.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/popping.jpg" alt="Estilo Popping">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Popping</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es una combinación de Funk y danza callejera basada en una técnica de contracción y relajación rápida de
+                            los músculos para provocar un tirón (‘Jerk’) en el cuerpo del bailarín referido como ‘Pop’ o ‘Hit’. Los pops se
+                            realizan en secuencia con el ritmo de una canción conjuntamente con otros movimientos y actitudes. El ‘Popping’
+                            se enfoca en partes especificadas del cuerpo como el ‘Pop’ del brazo, pierna, pecho o cuello. El efecto mostrado puede variar en intensidad así se pueden practicar el Popping con la parte inferior y superior del cuerpo simultáneamente. El bailarín de Popping se hace llamar comúnmente ‘Popper’.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/house.jpg" alt="Estilo House">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">House</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            El House Dance se remonta a finales de los 70´s y comienzo de los 80´s en discotecas de Detroit,
+                            Chicago y New York donde empezaba a surgir la música electrónica. Los estilos que han influido en el House Dance
+                            son el claqué, el tap, el lindy hop, la salsa, danza africana y breakdance entre otros. Dentro del estilo
+                            encontramos diferentes ingredientes como son el  Stomping (salto), Skating (resbalar), Footworks (trabajo de pies)
+                            o Lofting (trabajo de suelo). Todos ellos se combinan con el movimiento base llamado Jacking.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/breakdance.jpg" alt="Estilo Break Dance">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">BreakDance</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Es un estilo de baile urbano que forma parte del movimiento de la cultura HIP HOP surgido en las comunidades
+                            afroamericanas de barrios como el Bronxs o Brooklyn de Nueva York a comienzos de los años 1960. Es posiblemente
+                            el estilo de baile más conocido dentro del Hip Hop. El Breakdance forma parte de los llamados cuatro elementos
+                            de Hip Hop, siendo los otros el Mcing (rapping), el D Jing  y el Graffiti.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/danzas_polinesias.jpg" alt="Estilo Danzas Polinesias">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Danzas Polinesias</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Proveniente de Tahití, Polinesia Francesa. La Danza de Tahití se llama Ori Tahití en idioma tahitiano y
+                            es una expresión artística con profundas raíces en las antiguas tradiciones polinesias. La danza tahitiana es una imagen de flores brillantes, música rica de caracolas y flautas nasales, y movimientos de cuerpo completo. Originalmente, la danza se usaba en todos los diferentes aspectos de la vida, se usaba para cautivar a un amante, desafiar a un enemigo, adorar a un dios e incluso para orar. El baile evolucionó y se convirtió en parte de las ceremonias en las islas de la Polinesia Francesa durante miles de años.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-04"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 04, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>                                                                               
+        </section>        
+
+        <div class="label-title">
+            <h1>Coreográfos</h1>
+        </div>
+        <section class="articles-area"> <!-- CONTENEDOR DE LOS ARTÍCULOS DEL BLOG -->     
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/bory.jpg" alt="Coreográfo Bory">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Bory</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Bailarín supertalentoso con 11 años de experiencia en danza contemporánea y musicales,
+                            Profesional entusiaste con dotes excepcionales en coregografía e interpretación, experto
+                            en expresar emociones al bailar usando expresiones faciales apropiadas y movimientos elegantes.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-03"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 03, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/pierre.jpg" alt="Coreográfo Pierre">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Pierre</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Coreógrafo, bailarín y profesor de Hip Hop en Madison y en Chicago, acerca del baile Hip Hop
+                            y de sus orígenes; de la trayectoria que tiene en Madison y qué importancia tiene para la 
+                            comunidad Latina y los Madisonians!
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-03"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 03, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/carolyne.jpg" alt="Coreográfo Carolyne">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Carolyne</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Después de asistir a una clase magistral con Cunningham, decidió dedicarse a la danza
+                            a tiempo completo y se mudó a Nueva York para continuar sus estudios en el Escuela Juilliard.
+                            Fue la bailarina más importante de la compañía de Cunningham; Experta en ballet y ballet
+                            contemporáneo, así como en bailes urbanos.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-03"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 03, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>
+            <div class="article-area"> <!-- CONTENEDOR DE 1 ARTÍCULO -->
+                <div class = "image-article-area"> <!-- CONTENEDOR DE LA IMAGEN DEL ARTÍCULO -->
+                    <a href="#"> <!-- CONTENEDOR DEL LINK AL ARTÍCULO. EL "HASH" SIGNIFICA QUE SE MANTENGA EN LA MISMA PÁGINA POR AHORA -->
+                        <img src="./images/claude.jpg" alt="Coreográfo Claude">
+                    </a>
+                </div>
+                <div class="info-article"> <!-- CONTENEDOR DE TODA LA INFORMACIÓN DEL ARTÍCULO -->
+                    <article> <!-- CONTENEDOR DE LA DESCRIPCIÓN DEL ARTÍCULO -->
+                        <span class="title-info-article">Claude</span> <!-- ETIQUETA GENERAL DE INFORMACIÓN -->
+                        <p>
+                            Claude es actualmente una de las bailarinas y coreógrafas más famosas del público en general,
+                            Además, es muy polifacética, ya que domina a la perfección las danzas polinesias así como todo
+                            tipo de danza urbana y ballet contemporáneo.
+                        </p>
+                    </article>
+                    <div class="date-area"> <!-- CONTENEDOR DE LA FECHA DEL ARTÍCULO -->  
+                        <time datetime="2021-07-03"> <!-- FECHA DEL ARTÍCULO -->  
+                            Last update Julio 03, 2021
+                        </time>
+                    </div>
+                </div>
+            </div>                                                                               
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div class="media-blog">
+                <ul id = "social-media">
+                    <li>
+                        <a href="https://web.whatsapp.com/">
+                            <img src="./images/icono_whatsapp.png" alt="Whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://facebook.com/t-danceacademy">
+                            <img src="./images/icono_facebook.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/t-danceacademy">
+                            <img src="./images/icono_twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/t-danceacademy">
+                            <img src="./images/icono_instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://youtube.com/t-danceacademy">
+                            <img src="./images/icono_youtube.png" alt="Youtubex|    ">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="spaing-blogs">
+                <div>
+                    <ul class="links-category">
+                        <li>
+                            <h4 class="footer-title">T-Dance</h4>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Historia</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Partners</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Eventos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="links-category">
+                        <li>
+                            <h4 class="footer-title">Clases</h4>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Horarios</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Hip Hop</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Locking</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Popping</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">House Dance</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Break Dance</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Ballet</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Danza Contemporánea</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Danzas Polinesias</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="links-category">
+                        <li>
+                            <h3 class="footer-title">Coreográfos</h3>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Trabajos</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Acerca de ellos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="links-category">
+                        <li>
+                            <h4 class="footer-title">Legal</h4>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Privacidad</a>
+                        </li>
+                        <li>
+                            <a class="list-item foot-list-item" href="#">Terminos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h3>@2021 UCAMP; Todos los derechos reservados - Página con fines académicos</h3>
+        </div>
+    </footer>
+<main>
+
+</main>    
+</body>
+</html>
